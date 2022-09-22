@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int r,l,b,s,p,h;
+cout<<"enter radius of circle =";
+cin>>r;
+cout<<"enter length and b=";
+cin>>l;
+cin>>b;
+cout<<"enter for square=";
+cin>>s;
+cout<<"enter base and height =";
+cin>>p;
+cin>>h;
+cout<<"the area of circle ="<<3.14*r*r<<endl;
+cout<<"the area of rectangle = "<<l*b<<endl;
+cout<<"the area of square="<<s*s<<endl;
+cout<<"the area of triangle="<<0.5*p*h<<endl;
+return 0;
+}
+
